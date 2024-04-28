@@ -29,9 +29,11 @@ if(isset($_POST["submit"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ASET/Style.css">
     <title>Katalog</title>
 </head>
 <body>
+    <div class="container">
     <h1>Tambah Barang</h1>
     <form action="" method="POST">
         <ul>
@@ -45,8 +47,7 @@ if(isset($_POST["submit"])) {
             </li>
             <li>
                 <label for="detail"> Detail : </label>
-                <input type="text" name="detail" id="detail"required
-            >
+                <input type="text" name="detail" id="detail" required>
             </li>
             <li>
                 <label for="qty"> Qty: </label>
@@ -59,5 +60,6 @@ if(isset($_POST["submit"])) {
             <button type="submit" name="submit">Kirim</button>
         </ul>
     </form>
+    </div>
 </body>
 </html>

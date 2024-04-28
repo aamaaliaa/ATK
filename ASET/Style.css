@@ -1,0 +1,136 @@
+body {
+    font: 16px arial, sans-serif;
+    background-color: rgb(223, 213, 218);
+    color: palevioletred;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tombol {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-cari {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-cari input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-cari button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabel-atk {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel-atk th, .tabel-atk td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabel-atk th {
+    background-color: #f2f2f2;
+}
+
+.aksi {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/* Gaya untuk input form tambah dan ubah*/
+input[type="text"] {
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk tombol Kirim tambah dan ubah*/
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk container tambah dan ubah */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk judul tambah dan ubah*/
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: rgb(235, 230, 230);
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.footer p {
+    color: rgb(99, 5, 82);
+    font-size: 15px;
+}
+
